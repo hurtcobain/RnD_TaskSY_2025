@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Karmanya Acharya | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: #0a0a0a;
+      color: #f0f0f0;
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, #141414, #1f1f1f);
+      padding: 100px 10% 80px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #00f7ff;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      color: #ccc;
+    }
+
+    section {
+      padding: 80px 10%;
+      border-bottom: 1px solid #1e1e1e;
+      text-align: center;
+      animation: fadeIn 1s ease-in;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #00f7ff;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      display: inline-block;
+      text-align: left;
+      margin-top: 10px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #00f7ff;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    a:hover {
+      color: #ff3cac;
+      text-shadow: 0 0 5px #ff3cac;
+    }
+
+    .highlight {
+      color: #ff3cac;
+    }
+
+    .contact a {
+      margin: 0 10px;
+    }
+
+    .spotify a {
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    footer {
+      background-color: #0d0d0d;
+      padding: 30px 10%;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hi, I'm <span class="highlight">Karmanya</span></h1>
+    <p>I love Frank Ocean | Drones | Marketing | Sports</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I don’t know how to code — but here I am. I’m figuring it out. Passionate about drone tech, event marketing, and sports. Always learning.</p>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>People Skills & Public Relations</li>
+      <li>Arduino & Drone Projects</li>
+      <li>Social Media Marketing & Event Management</li>
+      <li>Business Case Study Analysis</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <p>Coming soon... cooking up something cool 👨‍💻</p>
+  </section>
+
+  <section class="volunteering">
+    <h2>Volunteering</h2>
+    <p><strong>Event Manager & Fundraising Volunteer</strong> — <em>Fit India Movement</em></p>
+    <p><small>Jan 2025 – Present · Health Sector</small></p>
+    <p>Led and supported health campaigns, blood donation drives, and awareness events.</p>
+  </section>
+
+  <section class="spotify">
+    <h2>Music & Hobbies</h2>
+    <p>I love curating playlists</p>
+    <a href="https://open.spotify.com/user/31cccmpkwvx2b5mkfkcxthu6r4py?si=Nzr8ydxxSoqBvHtKKdk_Xg" target="_blank">🎧 My Spotify</a>
+  </section>
+
+  <section class="contact">
+    <h2>Let’s Connect</h2>
+    <p>Email: <a href="mailto:kacharya_be24@thapar.edu">kacharya_be24@thapar.edu</a></p>
+    <p>
+      <a href="https://www.linkedin.com/in/karmanya-acharya-908106331/" target="_blank">LinkedIn</a> |
+      <a href="https://www.instagram.com/karmanya_acharya/" target="_blank">Instagram</a>
+    </p>
+  </section>
+
+  <section class="rickroll">
+    <h2>For More</h2>
+    <p>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Click Here</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Karmanya Acharya • Built with Caffeine and more Caffeine</p>
+  </footer>
+
+  
+</body>
+</html>
